@@ -1,8 +1,11 @@
 source 'https://rubygems.org'
-ruby '1.9.3'
-#ruby-gemset=railstutorial_rails_4_0
+ruby   '1.9.3'
 
-gem 'rails', '4.0.5'
+gem 'rails',                   '4.0.5'
+gem 'bcrypt',                  '3.1.7'
+gem 'faker',                   '1.4.2'
+gem 'will_paginate',           '3.0.7'
+gem 'bootstrap-will_paginate', '0.0.10'
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'sprockets', '2.11.0'
 gem 'bcrypt-ruby', '3.1.2'

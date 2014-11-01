@@ -51,4 +51,3 @@ class UsersEditTest < ActionDispatch::IntegrationTest
     assert_equal @user.email, email
   end
 end
-end

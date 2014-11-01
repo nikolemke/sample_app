@@ -3,6 +3,7 @@
 /* mixins, variables, etc. */
 
 $grayMediumLight: #eaeaea;
+$gray-lighter: gray;
 
 @mixin box_sizing {
   -moz-box-sizing: border-box;
@@ -105,7 +106,7 @@ footer {
       margin-left: 10px;
     }
   }
-
+}
 
 /* miscellaneous */
 
@@ -199,6 +200,3 @@ input {
     border-bottom: 1px solid $gray-lighter;
   }
 }
-
-}
-
